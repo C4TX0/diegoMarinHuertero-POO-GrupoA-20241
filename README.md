@@ -1,1 +1,1 @@
-# Tareas y ejercicios POO
+# Tarea 6
