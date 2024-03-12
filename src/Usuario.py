@@ -11,6 +11,7 @@ class User:
         self.__name = name
         self.__age = age
         self.__rented_books = []
+        self.__owned_books = []
 
     def get_name(self):
         return self.__name
@@ -18,7 +19,10 @@ class User:
     def get_age(self):
         return self.__age
 
-    def get_books_list(self):
+    def get_rented_books(self):
+        return self.__owned_books
+
+    def get_owned_books(self):
         return self.__rented_books
 
     def get_id(self):
